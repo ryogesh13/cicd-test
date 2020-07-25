@@ -1,0 +1,34 @@
+{
+    "name": "java-tool-installer",
+    "version": "0.134.0",
+    "description": "Java Tool Installer",
+    "main": "javaToolInstaller.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Microsoft/azure-pipelines-tasks.git"
+    },
+    "keywords": [
+        "Azure",
+        "Pipelines",
+        "Tasks",
+        "Java"
+    ],
+    "author": "Microsoft Corporation",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Microsoft/azure-pipelines-tasks/issues"
+    },
+    "homepage": "https://github.com/Microsoft/azure-pipelines-tasks#readme",
+    "dependencies": {
+        "@types/node": "^6.0.101",
+        "@types/q": "^1.0.7",
+        "azure-arm-rest": "file:../../_build/Tasks/Common/azure-arm-rest-1.0.2.tgz",
+        "azure-blobstorage-artifactProvider-v2": "file:../../_build/Tasks/Common/azure-blobstorage-artifactProvider-v2-2.0.0.tgz",
+        "azure-pipelines-task-lib": "2.9.3",
+        "azure-pipelines-tool-lib": "0.12.0",
+        "typed-rest-client": "1.0.7"
+    }
+}

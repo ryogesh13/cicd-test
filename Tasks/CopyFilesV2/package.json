@@ -1,0 +1,15 @@
+{
+  "name": "vsts-copyfiles-task",
+  "version": "1.0.0",
+  "description": "Azure Pipelines Copy Files Task",
+  "main": "copyfiles.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Microsoft/azure-pipelines-tasks.git"
+  },
+  "author": "Microsoft Corporation",
+  "license": "MIT",
+  "dependencies": {
+    "azure-pipelines-task-lib": "^2.9.3"
+  }
+}

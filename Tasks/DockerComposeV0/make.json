@@ -1,0 +1,8 @@
+{
+	"common": [{
+		"module": "../Common/docker-common-v2",
+		"type": "node",
+		"dest" : "./",
+		"compile" : true
+	}]
+}

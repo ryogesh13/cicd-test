@@ -1,0 +1,20 @@
+{
+  "loc.friendlyName": "Usa versione di Python",
+  "loc.helpMarkDown": "[Learn more about this task](https://go.microsoft.com/fwlink/?linkid=871498) or [see the Python documentation](https://www.python.org/doc/)",
+  "loc.description": "Consente di usare la versione specificata di Python dalla cache dello strumento e facoltativamente di aggiungerla a PATH",
+  "loc.instanceNameFormat": "Usa Python $(versionSpec)",
+  "loc.group.displayName.advanced": "Avanzate",
+  "loc.input.label.versionSpec": "Identificatore di versione",
+  "loc.input.help.versionSpec": "Valore relativo a un intervallo di versioni o a una versione esatta di una versione di Python da usare specificato con la sintassi dell'intervallo di versioni di semver. [Altre informazioni](https://go.microsoft.com/fwlink/?LinkID=2006180)",
+  "loc.input.label.addToPath": "Aggiungi a PATH",
+  "loc.input.help.addToPath": "Indica se anteporre la versione di Python recuperata alla variabile di ambiente PATH per renderla disponibile in attività o script successivi senza usare la variabile di output.",
+  "loc.input.label.architecture": "Architettura",
+  "loc.input.help.architecture": "Architettura di destinazione (x86, x64) dell'interprete Python.",
+  "loc.messages.ListAvailableVersions": "Versioni in %s:",
+  "loc.messages.PlatformNotRecognized": "Piattaforma non riconosciuta",
+  "loc.messages.PrependPath": "Alla variabile di ambiente PATH verrà anteposta la directory %s",
+  "loc.messages.PyPyNotFound": "Non è stato possibile trovare un'installazione di PyPy%d in Agent.ToolsDirectory.",
+  "loc.messages.ToolNotFoundMicrosoftHosted": "Se si tratta di un agente ospitato da Microsoft, verificare che l'immagine supporti le versioni side-by-side di %s in %s.",
+  "loc.messages.ToolNotFoundSelfHosted": "Se si tratta di un agente self-hosted, vedere come configurare le versioni side-by-side di %s in %s.",
+  "loc.messages.VersionNotFound": "L'identificatore di versione %s per l'architettura %s non corrisponde ad alcuna versione in Agent.ToolsDirectory."
+}
