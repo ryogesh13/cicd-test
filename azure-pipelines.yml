@@ -4,10 +4,10 @@ trigger:
 
 resources:
   repositories:
-  - repository: AzureDevOps
+  - repository: cicd-test
     type: git
-    endpoint: AzureDevOps
-    name: AzureDevOps/AzureDevOps
+    endpoint: ryogesh13/cicd-test
+    name: ryogesh13/cicd-test
 
 jobs:
 
